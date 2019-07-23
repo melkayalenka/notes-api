@@ -59,9 +59,8 @@ return [
                 'POST notes' => 'note/create-note',
                 'GET notes' => 'note/view-notes',
                 'GET notes/<noteSID>' => 'note/view-note',
-
-
-                'GET, POST cases/<action:\w+>' => 'cases/<action>',
+                'PUT notes/<noteSID>' => 'note/update-note',
+                'DELETE notes/<noteSID>' => 'note/delete-note',
             ],
         ],
 
